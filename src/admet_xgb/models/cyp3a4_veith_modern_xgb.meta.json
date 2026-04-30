@@ -1,0 +1,7 @@
+{
+  "task": "cyp3a4_veith",
+  "task_type": "binary",
+  "n_features": 2215,
+  "n_samples": 9861,
+  "random_state": 42
+}

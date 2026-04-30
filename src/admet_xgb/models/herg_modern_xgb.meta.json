@@ -1,0 +1,7 @@
+{
+  "task": "herg",
+  "task_type": "binary",
+  "n_features": 2215,
+  "n_samples": 523,
+  "random_state": 42
+}

@@ -1,0 +1,7 @@
+{
+  "task": "bbb_martins",
+  "task_type": "binary",
+  "n_features": 2215,
+  "n_samples": 1624,
+  "random_state": 42
+}

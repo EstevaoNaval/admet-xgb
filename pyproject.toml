@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling >= 1.26", "wheel"]
+build-backend = "hatchling.build"
+
+[project]
+name = "admet-xgb"
+version = "0.1.0"
+description = "Modern ADMET XGBoost predictors for BBB, CYP, Pgp, hERG, Ames, and DILI."
+readme = "README.md"
+
+requires-python = ">=3.11"
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+ 
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+
+  "Topic :: Software Development :: Build Tools",
+  "Topic :: Scientific/Engineering :: Chemistry",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+
+  "Programming Language :: Python :: 3"
+]
+
+license = { file = "LICENSE" }
+license-files = ["LICEN[CS]E*", "AUTHORS.md"]
+authors = [
+  { name = "Estevão Naval", email = "estevaovgnaval@gmail.com" }
+]
+
+dependencies = [
+  "numpy>=2.4.0",
+  "pandas>=3.0.2",
+  "xgboost>=3.2.0",
+  "rdkit>=2026.3.1",
+  "scikit-learn>=1.8.0"
+]
+
+[tool.hatch.build.targets.wheel]
+sources = ["src"]
+packages = ["src/admet_xgb"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/admet_xgb*"]

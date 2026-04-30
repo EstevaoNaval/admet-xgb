@@ -1,0 +1,7 @@
+{
+  "task": "pgp_broccatelli",
+  "task_type": "binary",
+  "n_features": 2215,
+  "n_samples": 973,
+  "random_state": 42
+}

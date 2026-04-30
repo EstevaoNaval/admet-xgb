@@ -1,0 +1,7 @@
+{
+  "task": "ames",
+  "task_type": "binary",
+  "n_features": 2215,
+  "n_samples": 5821,
+  "random_state": 42
+}
