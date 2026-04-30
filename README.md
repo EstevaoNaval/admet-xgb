@@ -64,6 +64,14 @@ Batch variants are available for each property with `_batch` suffix.
 - Invalid SMILES return `nan` for scores and `None` for boolean batch flags.
 - Features are MACCS (167 bits) plus Morgan (radius 2, 2048 bits).
 
+## License
+
+This project is licensed under the GNU Lesser General Public License - see the [LICENSE](LICENSE) file for details.
+
+## References
+
+Tian, H., Ketkar, R. & Tao, P. ADMETboost: a web server for accurate ADMET prediction. J Mol Model 28, 408 (2022). https://doi.org/10.1007/s00894-022-05373-8
+
 ## Sanity check
 
 ```bash

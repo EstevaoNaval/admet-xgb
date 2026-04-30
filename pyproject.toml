@@ -22,7 +22,7 @@ classifiers = [
   "Programming Language :: Python :: 3"
 ]
 
-license = { file = "LICENSE" }
+license = { file = "LICENSE", text = "LGPL-2.1-or-later" }
 license-files = ["LICEN[CS]E*", "AUTHORS.md"]
 authors = [
   { name = "Estevão Naval", email = "estevaovgnaval@gmail.com" }
