@@ -13,18 +13,18 @@ The models are packaged in [src/admet_xgb/models](src/admet_xgb/models) and load
 
 ## Installation
 
-Requires Python 3.11+ and RDKit.
+Requires Python 3.10+ and RDKit.
 
-From source:
-
-```bash
-pip install -e .
-```
-
-Or build/install a wheel:
+Install directly from GitHub:
 
 ```bash
 pip install git+https://github.com/EstevaoNaval/admet-xgb
+```
+
+For Developers:
+
+```bash
+pip install -e .
 ```
 
 ## Quick use
